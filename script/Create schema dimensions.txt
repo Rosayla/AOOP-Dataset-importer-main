@@ -1,0 +1,49 @@
+create schema dimensions;
+create schema facts;
+
+create table dimensions.time_dimension (
+      id   VARIANT default uuid_string(),
+      emitted timestamp,
+      dia int,
+      mes int,
+      ano int
+);
+
+create table dimensions.category_dimension
+(
+    id   VARIANT,
+    name varchar(255)
+);
+
+create table dimensions.gender_dimension
+(
+    id   VARIANT,
+    name varchar(255)
+);
+
+create table dimensions.shopping_mall_dimension
+(
+    id   VARIANT,
+    name varchar(255)
+);
+
+create table dimensions.payment_dimension
+(
+    id   VARIANT,
+    payment_method varchar(255)
+);
+
+create table dimensions.customer_dimension (
+        id VARIANT,
+        id_gender VARIANT
+);
+
+create table facts.invoice_facts
+(
+    total varchar(255),
+    id_payment VARIANT,
+    id_shopping VARIANT,
+    id_time VARIANT,
+    id_customer VARIANT,
+    id_category VARIANT
+);

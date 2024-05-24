@@ -1,0 +1,10 @@
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('b85a742b-2bb3-4cad-a28a-91725cf7b835', 'Kanyon', 1);
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('b0d00891-f54f-4b94-8a72-ddf9f521f30f', 'Forum Istanbul', 2);
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('0d342de7-6603-4467-90c2-b747d2bbac6d', 'Metrocity', 3);
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('0f20806c-3f35-4714-b644-a417e780d75f', 'Metropol AVM', 4);
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('873a8a96-7230-48f3-8c89-75082db5db8b', 'Istinye Park', 5);
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('3037b6e9-927d-420b-abc1-2b94996cb810', 'Mall of Istanbul', 6);
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('535a9c81-008f-4ba1-8798-372b711ce537', 'Emaar Square Mall', 7);
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('64ead84e-5cd3-48c5-a833-cd25226d9ba9', 'Cevahir AVM', 8);
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('8ae5d924-4701-4868-833c-bd43219af48e', 'Viaport Outlet', 9);
+INSERT INTO public.shopping_mall (shopping_mall_id, shopping_mall, label) VALUES ('ad5555d4-5548-4b81-9116-0292bcb89848', 'Zorlu Center', 10);
